@@ -12,5 +12,4 @@ O(d), where d is the number of digits.
 ## Space Complexity
 O(1)
 
-## Note
-Solved as part of daily DSA practice.
+
