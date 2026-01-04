@@ -1,0 +1,25 @@
+class Solution {
+public:
+    bool isArmstrong(int n) {
+        int dupp = n;
+        int count = 0;
+        int sum = 0;
+
+        // Step 1: count digits
+        int temp = n;
+        while (temp != 0) {
+            count++;
+            temp /= 10;
+        }
+
+        // Step 2: calculate sum
+        temp = n;
+        while (temp != 0) {
+            int lastdigit = temp % 10;
+            sum += pow(lastdigit, count);
+            temp /= 10;
+        }
+
+        return sum == dupp;
+    }
+};
