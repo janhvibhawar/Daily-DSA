@@ -1,3 +1,13 @@
+/*
+Problem: Check Palindrome
+Description: Given an integer, check whether it is a palindrome.
+Approach: Reverse the number using a loop and compare with the original.
+Time Complexity: O(n)
+Space Complexity: O(1)
+Platform: LeetCode
+Learning: Reversing a number and comparing values correctly.
+*/
+
 class Solution {
 public:
     bool isPalindrome(int n) {
