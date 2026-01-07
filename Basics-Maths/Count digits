@@ -1,3 +1,12 @@
+/*
+Problem: Count Digits of a Number
+Description: Count the number of digits in a given integer.
+Approach: Remove last digit repeatedly using division and increment a counter until number becomes 0.
+Time Complexity: O(d), where d = number of digits
+Space Complexity: O(1)
+*/
+
+
 #include<bits/stdc++.h>
 using namespace std;
 
