@@ -1,3 +1,12 @@
+/*
+Problem: Armstrong Number Check
+Description: Check whether a given number is an Armstrong number (sum of digits^number of digits equals the number).
+Approach: Count digits, raise each digit to the power of digit count, sum them, and compare with the original number.
+Time Complexity: O(d), where d = number of digits
+Space Complexity: O(1)
+*/
+
+
 class Solution {
 public:
     bool isArmstrong(int n) {
