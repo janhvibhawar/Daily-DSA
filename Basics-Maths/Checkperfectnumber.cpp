@@ -1,3 +1,12 @@
+/*
+Problem: Check Perfect Number
+Description: Check if a number equals the sum of its proper divisors.
+Approach: Find divisors up to sqrt(n), add divisor pairs to sum, compare with n.
+Time Complexity: O(√n)
+Space Complexity: O(1)
+Language: C++
+*/
+
 #include<bits/stdc++.h>
 using namespace std;
 
