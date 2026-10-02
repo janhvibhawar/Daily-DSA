@@ -12,3 +12,16 @@ int missingNumber(int n, vector<int> arr){
 }
 
 
+int main(){
+    int n;
+    cout << "Enter the number of elements in array:";
+    cin >> n;
+    cout << "Enter elements :";
+    vector<int> arr(n);
+    for(int i=0; i<n; i++){
+        cin >> arr[i];
+    }
+   int ans = missingNumber(n,arr);
+    cout << "Missing Number is:" << ans;
+   return 0;
+}
