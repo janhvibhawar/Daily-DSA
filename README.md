@@ -11,5 +11,3 @@ I solve **one problem per day** and upload the solution here.
 ## Language
 - C++
 
-## Progress
-- Day 01: Check Palindrome
