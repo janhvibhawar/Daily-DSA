@@ -19,3 +19,11 @@ bool checkPerfectNumber(int num) {
 
   return sum == num;
 }
+
+int main() {
+    int num;
+    cin >> num;
+    bool ans = checkPerfectNumber(num);
+    cout << ans;
+    return 0;
+}
