@@ -13,3 +13,12 @@ int lengthOfLastWord(string s) {
 
     return length;
 }
+
+
+int main(){
+        string s;
+        getline(cin, s);
+        int output = lengthOfLastWord(s);
+        cout << "Length of last word is:" << output << endl ;
+        return 0;
+}
