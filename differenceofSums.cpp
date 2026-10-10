@@ -1,3 +1,6 @@
+#include<iostream>
+using namespace std;
+
 int differenceOfSums(int n, int m) {
         int firstsum = 0;
         int nextsum = 0;
@@ -9,4 +12,19 @@ int differenceOfSums(int n, int m) {
             }
         }
         return firstsum - nextsum;
+}
+
+
+int main(){
+        int n;
+        cout << "Enter first number";
+        cin >> n;
+
+        int m;
+        cout << "Enter second number";
+        cin >> m;
+
+        int diff = differenceOfSums(n,m);
+        cout << diff ;
+return 0;
 }
